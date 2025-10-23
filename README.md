@@ -1,6 +1,15 @@
-Nami Dashboard
+# Nami Dashboard
 
 A modern, responsive merchant dashboard built with React, TypeScript, and Tailwind CSS. This dashboard provides comprehensive analytics and management tools for payment processing businesses.
+
+## 🚀 Live Demo
+**[View Live Demo](https://nami-dashboard1.netlify.app/)**
+
+## 📁 GitHub Repository
+**[View Source Code](https://github.com/rre9/nami-dashboard)**
+
+## 📸 Screenshots
+![Dashboard Preview](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Nami+Dashboard+Preview)
 
 ## Features
 
@@ -50,7 +59,7 @@ A modern, responsive merchant dashboard built with React, TypeScript, and Tailwi
 - Node.js 18+ 
 - pnpm (recommended) or npm
 
-##Setup
+## Setup
 
 1. **Clone the repository**
    ```bash
@@ -97,7 +106,7 @@ nami-dashboard/
 └── vite.config.ts         # Vite configuration
 
 
-##Development
+## Development
 
 
 - `pnpm dev` - Start development server
@@ -106,7 +115,7 @@ nami-dashboard/
 - `pnpm check` - Type checking
 - `pnpm format` - Format code with Prettier
 
-##Code Quality
+## Code Quality
 
 - **TypeScript**: Strict type checking enabled
 - **ESLint**: Code linting and formatting
@@ -132,9 +141,35 @@ nami-dashboard/
 - **HTTPS**: Enforced in production
 - **Input Validation**: TypeScript interfaces for data validation
 
-## Analytics Integration
+## 📊 Mock Data
+
+The dashboard uses comprehensive mock data to demonstrate functionality:
+- **KPI Metrics**: Transaction volumes, approval rates, refunds
+- **Chart Data**: Daily transactions, branch performance, terminal uptime
+- **Transaction History**: Recent transactions with status and amounts
+- **Branch Analytics**: Performance metrics across different locations
+
+## 🔧 Analytics Integration
 
 The dashboard is ready for analytics integration:
 - Google Analytics
 - Custom event tracking
 - Performance monitoring
+
+## 📝 Notes & Assumptions
+
+- **Data Source**: All data is static/mock for demonstration purposes
+- **Responsive Design**: Mobile-first approach with breakpoints at 640px, 1024px
+- **Performance**: Lazy loading implemented for optimal bundle size
+- **Accessibility**: WCAG 2.1 AA compliant with proper ARIA labels
+- **Browser Support**: Modern browsers (Chrome, Firefox, Safari, Edge)
+
+## 🎯 Assignment Requirements
+
+✅ **React Framework**: Built with React 18 + TypeScript + Vite  
+✅ **Responsive Design**: Desktop, tablet, and mobile optimized  
+✅ **Static Data**: Comprehensive mock data for all components  
+✅ **UI Libraries**: Recharts for charts, Tailwind CSS for styling  
+✅ **Deployment**: Hosted on Netlify with live URL  
+✅ **Repository**: GitHub repository with complete source code  
+✅ **Documentation**: Comprehensive README with setup instructions
