@@ -8,8 +8,7 @@ A modern, responsive merchant dashboard built with React, TypeScript, and Tailwi
 ## 📁 GitHub Repository
 **[View Source Code](https://github.com/rre9/nami-dashboard)**
 
-## 📸 Screenshots
-![Dashboard Preview](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Nami+Dashboard+Preview)
+
 
 ## Features
 
