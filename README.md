@@ -18,37 +18,30 @@ A modern, responsive merchant dashboard built with React, TypeScript, and Tailwi
 - **Styling**: Tailwind CSS, Tailwind Animate
 - **Charts**: Recharts
 - **Icons**: Lucide React
-- **UI Components**: Radix UI primitives
 - **Routing**: Wouter
-- **Data Fetching**: TanStack Query
-- **HTTP Client**: Axios
-- **Animations**: Framer Motion
-- **Validation**: Zod
-- **Notifications**: Sonner
 - **Build Tool**: Vite
 - **Package Manager**: pnpm
 
 ## Key Libraries
 
 ### Core Dependencies
-- **@radix-ui/react-***: Complete UI primitives (Dialog, Dropdown, Select, etc.)
-- **@tanstack/react-query**: Powerful data synchronization for React
-- **axios**: Promise-based HTTP client
-- **clsx**: Utility for constructing className strings
-- **tailwind-merge**: Merge Tailwind CSS classes without conflicts
-- **framer-motion**: Production-ready motion library for React
+- **react**: React 18 framework
+- **react-dom**: React DOM rendering
 - **wouter**: Minimalist routing library
-- **zod**: TypeScript-first schema validation
-- **sonner**: Beautiful toast notifications
 - **recharts**: Composable charting library
 - **lucide-react**: Beautiful & consistent icon toolkit
+- **clsx**: Utility for constructing className strings
+- **tailwind-merge**: Merge Tailwind CSS classes without conflicts
+- **tailwindcss-animate**: Animation utilities for Tailwind
 
 ### Development Dependencies
+- **vite**: Fast build tool and dev server
 - **@vitejs/plugin-react**: Vite plugin for React
 - **@tailwindcss/vite**: Tailwind CSS Vite plugin
 - **typescript**: TypeScript compiler
 - **prettier**: Code formatter
-- **esbuild**: Fast JavaScript bundler
+- **autoprefixer**: CSS vendor prefixing
+- **postcss**: CSS processing
 
 ## Installation
 
