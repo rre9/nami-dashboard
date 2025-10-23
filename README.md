@@ -19,8 +19,36 @@ A modern, responsive merchant dashboard built with React, TypeScript, and Tailwi
 - **Charts**: Recharts
 - **Icons**: Lucide React
 - **UI Components**: Radix UI primitives
+- **Routing**: Wouter
+- **Data Fetching**: TanStack Query
+- **HTTP Client**: Axios
+- **Animations**: Framer Motion
+- **Validation**: Zod
+- **Notifications**: Sonner
 - **Build Tool**: Vite
 - **Package Manager**: pnpm
+
+## Key Libraries
+
+### Core Dependencies
+- **@radix-ui/react-***: Complete UI primitives (Dialog, Dropdown, Select, etc.)
+- **@tanstack/react-query**: Powerful data synchronization for React
+- **axios**: Promise-based HTTP client
+- **clsx**: Utility for constructing className strings
+- **tailwind-merge**: Merge Tailwind CSS classes without conflicts
+- **framer-motion**: Production-ready motion library for React
+- **wouter**: Minimalist routing library
+- **zod**: TypeScript-first schema validation
+- **sonner**: Beautiful toast notifications
+- **recharts**: Composable charting library
+- **lucide-react**: Beautiful & consistent icon toolkit
+
+### Development Dependencies
+- **@vitejs/plugin-react**: Vite plugin for React
+- **@tailwindcss/vite**: Tailwind CSS Vite plugin
+- **typescript**: TypeScript compiler
+- **prettier**: Code formatter
+- **esbuild**: Fast JavaScript bundler
 
 ## Installation
 
