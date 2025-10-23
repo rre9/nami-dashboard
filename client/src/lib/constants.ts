@@ -1,0 +1,42 @@
+export const KPI_DATA = [
+  {
+    id: 'total-volume',
+    title: "Total Transaction Volume",
+    value: "SAR 1,234,567",
+    subtitle: "Last 30 days",
+    trend: { value: 12.5, isPositive: true, label: "vs last month" },
+    color: "blue" as const,
+  },
+  {
+    id: 'approved-transactions',
+    title: "Approved Transactions",
+    value: "15,842",
+    subtitle: "This month",
+    trend: { value: 8.2, isPositive: true, label: "increase" },
+    color: "green" as const,
+  },
+  {
+    id: 'declined-transactions',
+    title: "Declined Transactions",
+    value: "234",
+    subtitle: "This month",
+    trend: { value: 2.1, isPositive: false, label: "decrease" },
+    color: "orange" as const,
+  },
+  {
+    id: 'refunds-issued',
+    title: "Refunds Issued",
+    value: "45",
+    subtitle: "SAR 19,340",
+    trend: { value: 1.5, isPositive: false, label: "decrease" },
+    color: "purple" as const,
+  },
+  {
+    id: 'active-terminals',
+    title: "Active Terminals",
+    value: "87",
+    subtitle: "99.5% uptime",
+    trend: { value: 2, isPositive: true, label: "new this week" },
+    color: "yellow" as const,
+  },
+] as const;
