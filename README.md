@@ -3,105 +3,81 @@
 A modern and fully responsive merchant dashboard built with React, TypeScript, and Tailwind CSS.
 It provides comprehensive analytics and management tools designed for businesses in the payment processing sector.
 
-Live Demo
-[View Live Demo](https://nami-dashboard1.netlify.app/)
+## Live Demo
+- [View Live Demo](https://nami-dashboard1.netlify.app/)
 
- GitHub Repository
-[View Source Code](https://github.com/rre9/nami-dashboard)
+## GitHub Repository
+- [View Source Code](https://github.com/rre9/nami-dashboard)
 
-Features
+## Features
 
-Responsive Design: Optimized for desktop, tablet, and mobile devices.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Real-Time Analytics**: KPI cards with trend indicators and summary metrics
+- **Interactive Charts**: Multiple chart types built with Recharts
+- **Quick Actions**: Access common merchant operations efficiently
+- **Modern Interface**: Clean, minimal design with smooth transitions
+- **Accessibility**: Fully WCAG-compliant with ARIA labeling
+- **TypeScript Integration**: Ensures type safety and a better developer experience
 
-Real-Time Analytics: KPI cards with trend indicators and summary metrics.
+## Tech Stack
 
-Interactive Charts: Multiple chart types built with Recharts.
+- **Frontend**: React 18, TypeScript, Vite
+- **Styling**: Tailwind CSS, Tailwind Animate
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **Routing**: Wouter
+- **Package Manager**: pnpm
 
-Quick Actions: Access common merchant operations efficiently.
+## Key Libraries
 
-Modern Interface: Clean, minimal design with smooth transitions.
+### Core Dependencies
+- **react**: React 18 framework
+- **react-dom**: Rendering for React in browsers
+- **wouter**: Lightweight routing library
+- **recharts**: Composable charting library
+- **lucide-react**: Consistent, elegant icon toolkit
+- **clsx**: Utility for managing conditional class names
+- **tailwind-merge**: Merges Tailwind classes without conflicts
+- **tailwindcss-animate**: Animation utilities for Tailwind
 
-Accessibility: Fully WCAG-compliant with ARIA labeling.
+### Development Dependencies
+- **vite**: Fast build tool and dev server
+- **@vitejs/plugin-react**: Official Vite plugin for React
+- **@tailwindcss/vite**: Tailwind CSS integration with Vite
+- **typescript**: TypeScript compiler
+- **prettier**: Code formatter
+- **autoprefixer**: Adds vendor prefixes to CSS
+- **postcss**: CSS processing tool
 
-TypeScript Integration: Ensures type safety and a better developer experience.
+## Installation
 
-Tech Stack
+### Prerequisites
+- Node.js v18 or higher
+- pnpm (recommended) or npm
 
-Frontend: React 18, TypeScript, Vite
+### Setup
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd nami-dashboard
+   ```
 
-Styling: Tailwind CSS, Tailwind Animate
+2. **Install dependencies**
+   ```bash
+   pnpm install
+   ```
 
-Charts: Recharts
+3. **Start the development server**
+   ```bash
+   pnpm dev
+   ```
 
-Icons: Lucide React
+4. **Open your browser**
+   Visit http://localhost:3000
 
-Routing: Wouter
+## Project Structure
 
-Package Manager: pnpm
-
-Core Libraries
-
-react – React 18 framework
-
-react-dom – Rendering for React in browsers
-
-wouter – Lightweight routing library
-
-recharts – Composable charting library
-
-lucide-react – Consistent, elegant icon toolkit
-
-clsx – Utility for managing conditional class names
-
-tailwind-merge – Merges Tailwind classes without conflicts
-
-tailwindcss-animate – Animation utilities for Tailwind
-
-Development Dependencies
-
-vite – Fast build tool and dev server
-
-@vitejs/plugin-react – Official Vite plugin for React
-
-@tailwindcss/vite – Tailwind CSS integration with Vite
-
-typescript – TypeScript compiler
-
-prettier – Code formatter
-
-autoprefixer – Adds vendor prefixes to CSS
-
-postcss – CSS processing tool
-
-Installation
-Prerequisites
-
-Node.js v18 or higher
-
-pnpm (recommended) or npm
-
-Setup
-
-Clone the repository
-
-git clone <repository-url>
-cd nami-dashboard
-
-
-Install dependencies
-
-pnpm install
-
-
-Start the development server
-
-pnpm dev
-
-
-Open your browser
-Visit http://localhost:3000
-
-Project Structure
+```
 nami-dashboard/
 ├── client/
 │   ├── src/
@@ -122,101 +98,71 @@ nami-dashboard/
 ├── package.json                # Dependencies and scripts
 ├── tsconfig.json               # TypeScript configuration
 └── vite.config.ts              # Vite configuration
+```
 
-Development Commands
+## Development Commands
 
-pnpm dev – Start the local development server
+- `pnpm dev` – Start the local development server
+- `pnpm build` – Build the project for production
+- `pnpm preview` – Preview the production build
+- `pnpm check` – Run TypeScript type checking
+- `pnpm format` – Format code with Prettier
 
-pnpm build – Build the project for production
+## Code Quality
 
-pnpm preview – Preview the production build
+- **TypeScript**: Strict type checking enabled
+- **ESLint**: Code linting for consistent quality
+- **Prettier**: Automatic code formatting
+- **Responsive Layout**: Mobile-first design approach
 
-pnpm check – Run TypeScript type checking
+## Responsive Breakpoints
 
-pnpm format – Format code with Prettier
+- **Mobile**: < 640px
+- **Tablet**: 640px – 1024px
+- **Desktop**: > 1024px
 
-Code Quality
+## Performance Optimizations
 
-TypeScript: Strict type checking enabled
+- **Code Splitting**: Automatic optimization with Vite
+- **Memoization**: React.memo for improved performance
+- **Lazy Loading**: Dynamic imports for faster load times
+- **Tree Shaking**: Removes unused code during build
 
-ESLint: Code linting for consistent quality
+## Security
 
-Prettier: Automatic code formatting
+- **Content Security Policy**: Configured for production
+- **HTTPS Enforcement**: Enabled for live environments
+- **Input Validation**: Handled through TypeScript interfaces
 
-Responsive Layout: Mobile-first design approach
-
-Responsive Breakpoints
-
-Mobile: < 640px
-
-Tablet: 640px – 1024px
-
-Desktop: > 1024px
-
-Performance Optimizations
-
-Code Splitting: Automatic optimization with Vite
-
-Memoization: React.memo for improved performance
-
-Lazy Loading: Dynamic imports for faster load times
-
-Tree Shaking: Removes unused code during build
-
-Security
-
-Content Security Policy: Configured for production
-
-HTTPS Enforcement: Enabled for live environments
-
-Input Validation: Handled through TypeScript interfaces
-
-Mock Data
+## Mock Data
 
 The dashboard demonstrates functionality using static mock data:
 
-KPI Metrics: Transaction volumes, approval rates, and refunds
+- **KPI Metrics**: Transaction volumes, approval rates, and refunds
+- **Charts**: Daily transactions, branch performance, terminal uptime
+- **Transaction History**: Recent records with amounts and statuses
+- **Branch Analytics**: Performance across different locations
 
-Charts: Daily transactions, branch performance, terminal uptime
+## Analytics Integration
 
-Transaction History: Recent records with amounts and statuses
+- Google Analytics
+- Custom event tracking
+- Performance monitoring
 
-Branch Analytics: Performance across different locations
+## Notes and Assumptions
 
-Analytics Integration
+- All data used is static and for demonstration only
+- Fully responsive design with mobile-first principles
+- Lazy loading and bundling optimization for performance
+- WCAG 2.1 AA accessibility compliance
+- Supported on modern browsers (Chrome, Firefox, Safari, Edge)
 
-Ready for integration with:
+## Assignment Summary
 
-Google Analytics
-
-Custom event tracking
-
-Performance monitoring
-
-Notes and Assumptions
-
-All data used is static and for demonstration only
-
-Fully responsive design with mobile-first principles
-
-Lazy loading and bundling optimization for performance
-
-WCAG 2.1 AA accessibility compliance
-
-Supported on modern browsers (Chrome, Firefox, Safari, Edge)
-
-Assignment Summary
-
-Built with React 18, TypeScript, and Vite
-
-Fully responsive across all device sizes
-
-Includes static mock data for all dashboard components
-
-Uses Recharts for visualizations and Tailwind CSS for styling
-
-Deployed on Netlify
-
-Source code hosted on GitHub
-
-Includes complete setup instructions and documentation
+- Built with React 18, TypeScript, and Vite
+- Fully responsive across all device sizes
+- Includes static mock data for all dashboard components
+- Uses Recharts for visualizations and Tailwind CSS for styling
+- Deployed on Netlify
+- Source code hosted on GitHub
+- Includes complete setup instructions and documentation
